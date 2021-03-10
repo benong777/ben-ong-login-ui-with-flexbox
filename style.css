@@ -10,30 +10,30 @@ html, body {
 }
 
 #screen {
-    width: 100wh;
-    height: 100vh;
-    background-color: whitesmoke;
-
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100wh;
 }
 
 #signin-container {
-    width: 350px;
-    height: 280px;
-    min-width: 200px;
-    min-height: 160px;
-
-    font-style: sans-serif;
-    background-color: white;
-    border-radius: var(--round-border-radius);
-    box-shadow: 3px 2px 5px 3px rgba(0,0,0,0.24);
-
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+
+    background-color: white;
+    border-radius: var(--round-border-radius);
+    box-shadow: 3px 2px 5px 3px rgba(0,0,0,0.24);
+    font-style: sans-serif;
+
+    height: 280px;
+    min-height: 160px; 
+    min-width: 200px;
+    width: 350px; 
 }
 
 #signin-title {
@@ -41,24 +41,25 @@ html, body {
 }
 
 input {
-    padding: 4px;
-    opacity: 40%;
+
     border-top: transparent;
     border-right: transparent;
     border-left: transparent;
     font-size: var(--font-general);
+    opacity: 40%;
+    padding: 4px;
 }
 
 button {
-    color: white;
     background-color: dodgerblue;
     border: none;
     border-radius: var(--round-border-radius);
+    color: white;
+    font-size: var(--font-general);
     
     min-width: 130px;
     margin: 20px 0px;
     padding: 8px 0px;
-    font-size: var(--font-general);
 }
 
 
